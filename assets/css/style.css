@@ -122,3 +122,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* Nav section */
+
+nav {
+  background-color: #d35649;
+}
+
+.logo-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+svg {
+  fill: #fff;
+}
+
+.sidebar ul li {
+  padding: 0 1rem;
+}
