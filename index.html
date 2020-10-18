@@ -18,7 +18,7 @@
 <body>
     <header class="container-fluid p-0 m-0">
         <nav class="d-flex flex-column ">
-            <div class="logo row d-flex align-items-center justify-content-center py-2 px-0">
+            <div class="logo row d-flex align-items-center justify-content-center py-2 px-0 mx-0">
                 <div class="logo-img">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
@@ -27,11 +27,11 @@
                         </svg>
                     </a>
                 </div>
-                <div class=" h3 text-white">
+                <div class=" h3 text-white p-0 m-0">
                     <p>Paathyakram</p>
                 </div>
             </div>
-            <div class="sidebar d-flex flex-row py-2 px-0 justify-content-center">
+            <div class="sidebar d-flex flex-row py-3 px-0 justify-content-center">
                 <ul class="d-flex flex-row justify-content-between">
                     <li>
                         <a href="#" class="text-white"> <i class="fas fa-search"></i> <p class="d-none d-lg-block">Courses </p> </a>
@@ -50,9 +50,28 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container-fluid p-0 m-0">
 
-      
+        <div class="banner img-fluid d-flex align-items-center justify-content-center">
+            <div class="banner-header text-center">
+                <div class=" banner-header-title text-white text-uppercase font-weight-bolder m-3 ">
+                    <p>Paathyakram... Your Path to Online learning courses.</p>
+                </div>
+                <div class="banner-header-form m-3 rounded"> 
+                   
+                    <form class="d-flex flex-column p-3">
+                        <h4 class="text-uppercase h6 d-flex flex-start">Search by key word:</h4>
+                        <div class="p-0 m-0 d-flex flex-column flex-md-row">
+                            <input type="text" class="form-text mb-2 p-2 flex-grow my-md-0 col-md-9" placeholder=" " />
+                            <button type="submit" class="btn text-uppercase font-weight-bolder banner-form-button col-md-3 text-white">Search</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="banner-header-button">
+                    <Button type="button" class="btn "> How it works</Button>
+                </div>
+            </div>
+        </div>
 
     </main>
 
