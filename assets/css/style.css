@@ -149,6 +149,12 @@ svg {
 }
 
 .banner {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/online.png) no-repeat;
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+    url(/assets/img/online.png) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
     url(/assets/img/online.png) no-repeat;
@@ -206,12 +212,24 @@ svg {
   background: #e17e65;
 }
 
+.Advertise-1 button {
+  color: #e17e65;
+}
+
 .Advertise-2 {
   background: #98a4a5;
 }
 
+.Advertise-2 button {
+  color: #98a4a5;
+}
+
 .Advertise-3 {
   background: #509bd7;
+}
+
+.Advertise-3 button {
+  color: #509bd7;
 }
 
 /* footer */
