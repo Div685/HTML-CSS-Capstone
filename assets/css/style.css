@@ -185,6 +185,15 @@ svg {
   background-color: #d2cfcf;
 }
 
+.banner-header {
+  margin: 0 2rem;
+}
+
+.banner-header-form {
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
 /* Section Guid */
 
 .section-guid {
@@ -283,12 +292,33 @@ svg {
     height: 70vh;
     position: relative;
   }
+
+  .banner-header {
+    margin: 0 5rem;
+  }
+
+  .banner-header-form {
+    padding: 1rem 3rem;
+  }
 }
 
 /* Large Screen > 1024px */
 
 @media screen and (min-device-width: 1024px) {
   /* banner  */
+
+  .banner-header {
+    margin: 0 5rem;
+  }
+
+  .banner-header-title {
+    font-size: 3vw;
+    font-family: "Questrial", sans-serif;
+  }
+
+  .banner-header-form {
+    padding: 1rem 3rem;
+  }
 
   .banner {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
