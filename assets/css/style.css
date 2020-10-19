@@ -214,6 +214,39 @@ svg {
   background: #509bd7;
 }
 
+/* footer */
+
+.footer {
+  background-color: #000;
+}
+
+.footer-input {
+  background: transparent;
+  color: white;
+}
+
+.footer-middle p {
+  color: #aaa;
+}
+
+.footer-middle a {
+  color: #f35649;
+}
+
+.footer-bottom {
+  background-color: #1f1f1f;
+  color: #5d5d5d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-bottom .footer-bottom-icon i {
+  font-size: 1.5rem;
+  margin: 10px 12px 10px 0;
+  color: #5d5d5d;
+}
+
 /* Large Screen > 1024px */
 
 @media screen and (min-device-width: 1024px) {
@@ -240,5 +273,16 @@ svg {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+  }
+
+  /* Footer */
+
+  .footer-bottom {
+    background-color: #1f1f1f;
+    color: #5d5d5d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
