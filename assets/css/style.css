@@ -265,9 +265,47 @@ svg {
   color: #5d5d5d;
 }
 
+/* Tabalet scren */
+
+@media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  .banner {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/online.png) no-repeat;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/online.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/online.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+  }
+}
+
 /* Large Screen > 1024px */
 
 @media screen and (min-device-width: 1024px) {
+  /* banner  */
+
+  .banner {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/online.png) no-repeat;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/online.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
+      url(/assets/img/online.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+  }
+
   /* Section Guid */
 
   .section-guid {
