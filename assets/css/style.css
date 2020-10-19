@@ -160,6 +160,7 @@ svg {
 
 /* Main section */
 
+/* Banner */
 .banner-form-button {
   background-color: #f35649;
 }
@@ -171,8 +172,73 @@ svg {
 
 .banner-header-title {
   font-size: 4vw;
+  font-family: "Questrial", sans-serif;
 }
 
 .banner-header-button Button {
   background-color: #d2cfcf;
+}
+
+/* Section Guid */
+
+.section-guid {
+  font-family: "Questrial", sans-serif;
+  padding: 0;
+}
+
+.section-guid-title {
+  color: #f35649;
+}
+
+.guid-row-title {
+  color: #000;
+  font-weight: 900;
+  margin: 1rem auto;
+}
+
+/* Advertise Section */
+.Advertise {
+  font-family: "Questrial", sans-serif;
+  color: white;
+}
+
+.Advertise-1 {
+  background: #e17e65;
+}
+
+.Advertise-2 {
+  background: #98a4a5;
+}
+
+.Advertise-3 {
+  background: #509bd7;
+}
+
+/* Large Screen > 1024px */
+
+@media screen and (min-device-width: 1024px) {
+  /* Section Guid */
+
+  .section-guid {
+    font-family: "Questrial", sans-serif;
+    padding: 5rem;
+  }
+
+  .section-guid-title {
+    color: #f35649;
+  }
+
+  .guid-row-title {
+    color: #000;
+    font-weight: 900;
+    margin: 1rem auto;
+  }
+
+  /* Advertise */
+
+  .Advertise .Advertise-right img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
 }
