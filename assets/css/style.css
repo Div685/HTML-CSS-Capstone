@@ -381,6 +381,15 @@ svg {
     width: 2rem;
     height: 2rem;
   }
+
+  .footer-bottom {
+    background-color: #1f1f1f;
+    color: #5d5d5d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 /* Large Screen > 1024px */
