@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/search.css" />
+    <link rel="stylesheet" href="./assets/css/detail.css" />
 
 </head>
 <body>
@@ -63,106 +64,75 @@
         </nav>
     </header>
 
-    <main class=" p-0 mx-0">
+    <main>
+        <section class="detail-info card p-4">
+            <div class="detail-info-title">
+                <img src="/assets/img/illustrator.svg" class="img-logo" alt="logo">
+                <h2 class="card-title">Design - Illustrator CC 2020 MasterClass</h2>
+                <img src="/assets/img/illustrator-bookk.png" class="img-cover" alt="book">
+            </div>
 
-        <section class="my-5 bg-light w-100  pb-5">
-            <h2 class="p-3 text-secondary h5 d-flex justify-content-center">Filterd by Course Name, Author, Category:</h2>
-           
-            <div class="d-flex flex-column flex-md-row justify-content-center filter">
-                <div class="mr-md-1 col-md-3 px-1 mt-md-0">
-                    <p>Course Name*</p>
-                    <input type="text" class="p-2 col-md-12 mt-2 border border-dark" />
-                </div>
-                <div class="mr-md-1 col-md-3 px-1 mt-2 mt-md-0">
-                    <p>Author</p>
-                    <input type="text" name="" class="p-2 col-md-12 mt-2 border border-dark">
-                </div>
-                <div class="mt-2 mt-md-0 mr-md-1 col-md-3 px-1">
-                    <p>Category</p>
-                    <div class="dropdown p-0 mt-2">
-                      <button class="btn border border-dark col-md-12 p-2 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Category
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Development</a>
-                        <a class="dropdown-item" href="#">IT</a>
-                        <a class="dropdown-item" href="#">Photography</a>
-                        <a class="dropdown-item" href="#">Music</a>
-                        <a class="dropdown-item" href="#">Design</a>
-                        <a class="dropdown-item" href="#">Personal Development</a>
-                      </div>
+            <div class="detail-list-info d-flex justify-content-between">
+                <div class="detail-list-info-left col-md-6">
+                    <div class="detail-list-row-1 ">
+                        <p>Type:</p>
+                        <p> <a href="#"> PDF </a> </p>
                     </div>
-                   
+                    <div class="detail-list-row-1 ">
+                        <p>Review:</p>
+                        <p> <a href="#"> 4.5 <i class="fas fa-star"></i> </a> </p>
+                    </div>
+                    <div class="detail-list-row-1 ">
+                        <p>Created By:</p>
+                        <p> <a href="https://github.com/Div685" > Divyesh Patel </a> </p>
+                    </div>
                 </div>
-                <div class="d-flex  justify-content-center col-md-3 px-1">
-                    
-                    <button type="button" class="btn btn-primary filter-search-btn mt-4 mb-0 mx-0 col-md-12" >Search</button>
+
+                <div class="detail-list-info-right col-md-6">
+
+                    <div class="detail-list-row-1 ">
+                        <p>Language:</p>
+                        <p> <a href="#"> English, Spanish </a>  </p>
+                    </div>
+                    <div class="detail-list-row-1 ">
+                        <p>Last Updated:</p>
+                        <p> <a href="#"> 10-08-2020 </a> </p>
+                    </div>
+                    <div class="detail-list-row-1 ">
+                        <p>Level:</p>
+                        <p> <a href="#"> Beginers </a> </p>
+                    </div>
                 </div>
             </div>
+
+            <div class="deatil-infor-button-right">
+                <button type="button" class=" btn btn-primary">Apply Now</button>
+            </div>
+
             
         </section>
 
-        <section>
-            <h2 class="p-3 text-secondary h3 d-flex justify-content-center">Search Results </h2>
-            
-            <div class="search-Grid m-0 p-3">
-                
-                <a href="/searchDetail.html">
-                    <div class="p-0 m-0">
-                        <figure>
-                                <img src="/assets/img/development.jpg" alt="Development" class="">
-                                <figcaption>Development</figcaption>                        
-                        </figure> 
-                    </div> 
-                 </a>
-                
-                <a href="/searchDetail.html"> 
-                    <div>
-                        <figure>
-                            <img src="/assets/img/design.jpg" alt="Design">
-                            <figcaption>Design</figcaption>
-                        </figure>
-                    </div>
-                </a>
+        <div class="Description">
+            <p>
+               <a href="#" class="font-weight-bolder text-body"> Paathyakram’s best-selling Illustrator course </a>– by one of the Top 10 Adobe Instructors in the world – 
+                teaches you to use this 
+                industry-leading vector graphic application as a creative professional. The whole course content,
+                 including examples, techniques, exercises and quizzes have been carefully selected and refined to offer 
+                 the most efficient and enjoyable way to master Adobe Illustrator.
 
-                <a href="/searchDetail.html"> 
-                    <div>
-                        <figure>
-                            <img src="/assets/img/IT.jpg" alt="Design">
-                            <figcaption>IT</figcaption>
-                        </figure>
-                    </div>
-                </a>
+                This course has been purposely designed for users of all experiences, 
+                from complete beginners to existing Illustrator users, who want to take their 
+                skills to the next level. Being able to confidently work in Illustrator is an 
+                essential skill for any Graphic Designer or Illustrator, but it is an equally 
+                useful tool for Product Designers, Fashion Designers, UI/UX designers and various other
+                 areas within and outside of the creative industry
+            </p>    
 
-                <a href="/searchDetail.html"> 
-                    <div>
-                        <figure>
-                            <img src="/assets/img/Photo.jpg" alt="Design">
-                            <figcaption>Photography</figcaption>
-                        </figure>
-                    </div>
-                </a>
-                <a href="/searchDetail.html"> 
-                    <div>
-                        <figure>
-                            <img src="/assets/img/Personal Development.jpg" alt="Design">
-                            <figcaption>Personal Development</figcaption>
-                        </figure>
-                    </div>
-                </a>
-
-                <a href="/searchDetail.html"> 
-                    <div>
-                        <figure>
-                            <img src="/assets/img/design.jpg" alt="Design">
-                            <figcaption>Design</figcaption>
-                        </figure>
-                    </div>
-                </a>
-
-                
+            <div class="description-button">
+                <i class="fas fa-info-circle"></i>
+                <p>Click to view More details</p>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer class="footer">
@@ -274,8 +244,7 @@
         </div>
     </footer>
     
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
