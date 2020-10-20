@@ -9,10 +9,34 @@
   font-family: "Questrial", sans-serif;
 }
 
+.search-Grid figure {
+  position: relative;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.555),
+      black
+    ),
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 30%, black);
+}
+
+.search-Grid figcaption {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
 .search-Grid figure img {
   object-fit: cover;
   background-size: cover;
   width: 100%;
+  z-index: -1;
+  position: relative;
 }
 
 .filter {
