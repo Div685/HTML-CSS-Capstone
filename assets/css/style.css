@@ -126,7 +126,7 @@ table {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* Nav section */
@@ -285,8 +285,7 @@ svg {
 
 .footer .footer-top .footer-top-row-1 ul {
   display: flex;
-  /* border-top: 3px solid;
-  border-bottom: 3px solid; */
+  flex-wrap: wrap;
 }
 .footer .footer-top .footer-top-row-1 ul li {
   padding: 0.5rem 0;
@@ -310,7 +309,7 @@ svg {
 
 /* Tabalet scren */
 
-@media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .banner {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
@@ -337,11 +336,11 @@ svg {
 
   /* Advertise */
 
-  /* .Advertise .Advertise-right img {
+  .Advertise .Advertise-right img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-  } */
+  }
 
   /* Footer */
 
