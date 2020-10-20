@@ -245,6 +245,7 @@ svg {
 
 .footer {
   background-color: #000;
+  font-family: "Questrial", sans-serif;
 }
 
 .footer-input {
@@ -274,6 +275,39 @@ svg {
   color: #5d5d5d;
 }
 
+.footer .footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+.footer .footer-top .footer-top-row-1 ul {
+  display: flex;
+  /* border-top: 3px solid;
+  border-bottom: 3px solid; */
+}
+.footer .footer-top .footer-top-row-1 ul li {
+  padding: 0.5rem 0;
+}
+.footer .footer-top .footer-top-row-1 ul li a {
+  margin: 0 0.5rem;
+  color: #fff;
+}
+
+.footer .footer-top .footer-top-row-2 {
+  border-radius: 50%;
+  display: none;
+  /* border: 3px solid; */
+  padding: 1rem;
+}
+
+.footer .footer-top .logo-footer {
+  width: 2rem;
+  height: 2rem;
+}
+
 /* Tabalet scren */
 
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
@@ -299,6 +333,49 @@ svg {
 
   .banner-header-form {
     padding: 1rem 3rem;
+  }
+
+  /* Advertise */
+
+  /* .Advertise .Advertise-right img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  } */
+
+  /* Footer */
+
+  .footer .footer-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .footer .footer-top .footer-top-row-1 ul {
+    display: flex;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+  }
+  .footer .footer-top .footer-top-row-1 ul li {
+    padding: 0.5rem 0;
+  }
+  .footer .footer-top .footer-top-row-1 ul li a {
+    margin: 0 0.8rem;
+    color: #fff;
+  }
+
+  .footer .footer-top .footer-top-row-2 {
+    border-radius: 50%;
+    border: 3px solid;
+    padding: 1rem;
+    display: flex;
+  }
+
+  .footer .footer-top .logo-footer {
+    width: 2rem;
+    height: 2rem;
   }
 }
 
@@ -362,6 +439,43 @@ svg {
   }
 
   /* Footer */
+
+  .footer {
+    font-family: "Questrial", sans-serif;
+  }
+
+  .footer .footer-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .footer .footer-top .footer-top-row-1 ul {
+    display: flex;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+  }
+  .footer .footer-top .footer-top-row-1 ul li {
+    padding: 0.5rem 0;
+  }
+  .footer .footer-top .footer-top-row-1 ul li a {
+    margin: 0 1rem;
+    color: #fff;
+  }
+
+  .footer .footer-top .footer-top-row-2 {
+    border-radius: 50%;
+    display: flex;
+    border: 3px solid;
+    padding: 1rem;
+  }
+
+  .footer .footer-top .logo-footer {
+    width: 2rem;
+    height: 2rem;
+  }
 
   .footer-bottom {
     background-color: #1f1f1f;
