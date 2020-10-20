@@ -253,8 +253,13 @@ svg {
   color: white;
 }
 
+.footer-middle {
+  margin: 0 5rem;
+}
+
 .footer-middle p {
   color: #aaa;
+  font-size: 14px;
 }
 
 .footer-middle a {
