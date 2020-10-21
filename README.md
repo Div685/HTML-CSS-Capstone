@@ -67,4 +67,4 @@ Give a ⭐️ if you like this project!
 
 - I would like to thank [Mathew Njuguna](https://www.behance.net/mathewnjuguna) for providing such a wonderfull design. you can check our his other Designs on [Behance](https://www.behance.net/mathewnjuguna).
 
-- Mathew Njuguna's design can be found [Here](https://www.behance.net/gallery/25563385/PatashuleKE)
+- Mathew Njuguna's design can be found [Here](https://www.behance.net/gallery/25563385/PatashuleKE) for this Project.
