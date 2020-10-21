@@ -103,11 +103,6 @@ body {
 
 /* Learn more */
 
-.learn-more-left p {
-  padding: 10px;
-  font-size: 20px;
-}
-
 /* Tablet view */
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -155,6 +150,11 @@ body {
     margin: 10px 0;
     border-radius: 5px;
     font-weight: 600;
+  }
+
+  .learn-more-left p {
+    padding: 10px;
+    font-size: 20px;
   }
 
   .detail-list-row-1 p:last-child {
