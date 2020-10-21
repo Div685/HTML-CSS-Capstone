@@ -26,10 +26,16 @@ It contains Three pages
 
 ## Getting Started
 
-- Clone [This repo](https://github.com/Div685/HTML-CSS-Capstone)
 - To get a local copy up and running follow these simple steps.
 
-Install dependencies:
+- clone This repository by using following command in your local PC:
+
+```
+git clone https://github.com/Div685/HTML-CSS-Capstone.git
+
+```
+
+- After clonning you need to install some of the required dependencies using following command:
 
 ```
 npm install
