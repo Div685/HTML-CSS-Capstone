@@ -145,19 +145,19 @@ svg {
 }
 
 .sidebar ul li {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .banner {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-    url(/assets/img/online.png) no-repeat;
+    url(../img/online.png) no-repeat;
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-    url(/assets/img/online.png) no-repeat;
+    url(../img/online.png) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-    url(/assets/img/online.png) no-repeat;
+    url(../img/online.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -318,13 +318,13 @@ svg {
   .banner {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/online.png) no-repeat;
+      url(../img/online.png) no-repeat;
     background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/online.png) no-repeat;
+      url(../img/online.png) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/online.png) no-repeat;
+      url(../img/online.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -413,13 +413,13 @@ svg {
   .banner {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/online.png) no-repeat;
+      url(../img/online.png) no-repeat;
     background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/online.png) no-repeat;
+      url(../img/online.png) no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       linear-gradient(to bottom right, rgba(0, 0, 0, 0.265) 50%, black),
-      url(/assets/img/online.png) no-repeat;
+      url(../img/online.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 70vh;
