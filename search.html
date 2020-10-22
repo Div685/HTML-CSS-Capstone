@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS-Capstone - Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/icon.ico">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/search.css" />
+
+</head>
+<body>
+
+    <header class="container-fluid p-0 m-0 sticky-top">
+        <nav class="d-flex flex-column flex-md-row justify-content-md-between p-md-3 ">
+            <div class="logo row d-flex align-items-center justify-content-center py-2 px-0 mx-md-0 mr-0 ml-n4">
+                <div class="logo-img">
+                    <a href="./index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                            <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                            <g><g><g><g><path d="M688.5,377.4v52.2c0,0-11.7-8.2-25.9,13.7l4.9-66C667.5,377.3,673.4,383.2,688.5,377.4z M688.6,363.3c0,6.4-5.2,11.6-11.6,11.6c-6.4,0-11.6-5.2-11.6-11.6c0-4.9,3-9.1,7.2-10.8v-37.7l-38.7,23.8v32.8l-0.8-0.3c0.9,1.3,1.6,2.6,1.6,3.9c0,14.9-60.3,27-134.7,27c-74.3,0-134.5-12.1-134.5-27c0-1.3,0.6-2.6,1.6-3.9l-0.8,0.3v-32.7l-88.7-51.5L500,168.3l222.5,118.8l-41.1,22.7v42.7C685.6,354.2,688.6,358.5,688.6,363.3z M500,279.4c24.6,0,44.7,1.9,61.3,4.8L500,266.1c-105.1,0-130.9,38.8-130.9,38.8v9C378,304.3,409.8,279.4,500,279.4z M619.5,375c0-9.3-53.5-16.8-119.5-16.8c-66,0-119.4,7.5-119.4,16.8c0,9.2,53.4,16.7,119.4,16.7C566,391.7,619.5,384.1,619.5,375z M631,304.8l-23.6-7c12.9,6.1,20.1,12.2,23.6,16V304.8z M808.7,318.7C808.7,489.2,500,990,500,990S191.3,489.2,191.3,318.7C191.3,148.3,329.5,10,500,10C670.5,10,808.7,148.3,808.7,318.7z M738.9,318.7C738.9,187,631.7,79.9,500,79.9c-131.8,0-238.9,107.2-238.9,238.9c0,131.7,107.2,238.9,238.9,238.9C631.7,557.6,738.9,450.4,738.9,318.7z"/></g></g></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></g>
+                        </svg>
+                    </a>
+                </div>
+                <div class=" h3 text-white p-0 m-0">
+                    <p> <a href="./index.html" class="text-white"> Paathyakram </a></p>
+                </div>
+            </div>
+            <div class="sidebar d-flex flex-row py-3 px-0 justify-content-center">
+                <ul class="d-flex flex-row justify-content-between mx-3">
+                    <li>
+                        <a href="./search.html" class="text-white d-lg-flex"> 
+                            <i class="fas fa-search mr-2"></i> 
+                            <p class="d-none d-lg-block">Courses </p> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white d-lg-flex"> 
+                            <i class="far fa-user mr-2"></i> 
+                            <p class="d-none d-lg-block">About </p> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white d-lg-flex">
+                            <i class="fas fa-rss mr-2"></i>
+                             <p class="d-none d-lg-block"> Blog </p> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white d-lg-flex">
+                            <i class="fas fa-bars mr-2"></i> 
+                            <p class="d-none d-lg-block "> More </p> </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class=" p-0 mx-0">
+
+        <section class="my-5 bg-light w-100  pb-5">
+            <h1 class="p-3 text-secondary h5 d-flex justify-content-center text-center">Filterd by Course Name, Author, Category:</h1>
+           
+            <div class="d-flex flex-column flex-md-row justify-content-center filter">
+                <div class="mr-md-1 col-md-3 px-1 mt-md-0">
+                    <p>Course Name*</p>
+                    <input type="text" class="p-2 col-md-12 mt-2 border border-dark" />
+                </div>
+                <div class="mr-md-1 col-md-3 px-1 mt-2 mt-md-0">
+                    <p>Author</p>
+                    <input type="text" class="p-2 col-md-12 mt-2 border border-dark">
+                </div>
+                <div class="mt-2 mt-md-0 mr-md-1 col-md-2 px-1">
+                    <p>Category</p>
+                    <div class="dropdown p-0 mt-2">
+                      <button class="btn border border-dark col-md-12 p-2 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Development</a>
+                        <a class="dropdown-item" href="#">IT</a>
+                        <a class="dropdown-item" href="#">Photography</a>
+                        <a class="dropdown-item" href="#">Music</a>
+                        <a class="dropdown-item" href="#">Design</a>
+                        <a class="dropdown-item" href="#">Personal Development</a>
+                      </div>
+                    </div>
+                   
+                </div>
+                <div class="d-flex  justify-content-center flex-column flex-md-row col-md-4 px-1">
+                    
+                    <button type="button" class="btn btn-primary filter-search-btn mt-4 mb-0 mx-0 col-md-5 " >Search</button>
+                    <button type="button" class="btn btn-warning text-white filter-search-btn mt-4 mb-0 mx-md-1 col-md-7" ><i class="fas fa-edit"></i>Clear filter</button>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section>
+            <h2 class="p-3 text-secondary h3 d-flex justify-content-center">Search Results </h2>
+            
+            <div class="search-Grid m-0 p-3">
+                
+                <a href="./searchDetail.html">
+                    <div class="p-0 m-0">
+                        <figure>
+                                <img src="./assets/img/development.jpg" alt="Development" class="">
+                                <figcaption>Development</figcaption>                        
+                        </figure> 
+                    </div> 
+                 </a>
+                
+                <a href="./searchDetail.html"> 
+                    <div>
+                        <figure>
+                            <img src="./assets/img/design.jpg" alt="Design">
+                            <figcaption>Design</figcaption>
+                        </figure>
+                    </div>
+                </a>
+
+                <a href="./searchDetail.html"> 
+                    <div>
+                        <figure>
+                            <img src="./assets/img/IT.jpg" alt="Design">
+                            <figcaption>IT</figcaption>
+                        </figure>
+                    </div>
+                </a>
+
+                <a href="./searchDetail.html"> 
+                    <div>
+                        <figure>
+                            <img src="./assets/img/Photo.jpg" alt="Design">
+                            <figcaption>Photography</figcaption>
+                        </figure>
+                    </div>
+                </a>
+                <a href="./searchDetail.html"> 
+                    <div>
+                        <figure>
+                            <img src="./assets/img/PersonalDevelopment.jpg" alt="Design">
+                            <figcaption>Personal Development</figcaption>
+                        </figure>
+                    </div>
+                </a>
+
+                <a href="./searchDetail.html"> 
+                    <div>
+                        <figure>
+                            <img src="./assets/img/design.jpg" alt="Design">
+                            <figcaption>Design</figcaption>
+                        </figure>
+                    </div>
+                </a>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-top-img-text d-md-none d-flex mx-0 my-2 m-md-0" >
+                <div class="logo-img">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                            <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                            <g><g><g><g><path d="M688.5,377.4v52.2c0,0-11.7-8.2-25.9,13.7l4.9-66C667.5,377.3,673.4,383.2,688.5,377.4z M688.6,363.3c0,6.4-5.2,11.6-11.6,11.6c-6.4,0-11.6-5.2-11.6-11.6c0-4.9,3-9.1,7.2-10.8v-37.7l-38.7,23.8v32.8l-0.8-0.3c0.9,1.3,1.6,2.6,1.6,3.9c0,14.9-60.3,27-134.7,27c-74.3,0-134.5-12.1-134.5-27c0-1.3,0.6-2.6,1.6-3.9l-0.8,0.3v-32.7l-88.7-51.5L500,168.3l222.5,118.8l-41.1,22.7v42.7C685.6,354.2,688.6,358.5,688.6,363.3z M500,279.4c24.6,0,44.7,1.9,61.3,4.8L500,266.1c-105.1,0-130.9,38.8-130.9,38.8v9C378,304.3,409.8,279.4,500,279.4z M619.5,375c0-9.3-53.5-16.8-119.5-16.8c-66,0-119.4,7.5-119.4,16.8c0,9.2,53.4,16.7,119.4,16.7C566,391.7,619.5,384.1,619.5,375z M631,304.8l-23.6-7c12.9,6.1,20.1,12.2,23.6,16V304.8z M808.7,318.7C808.7,489.2,500,990,500,990S191.3,489.2,191.3,318.7C191.3,148.3,329.5,10,500,10C670.5,10,808.7,148.3,808.7,318.7z M738.9,318.7C738.9,187,631.7,79.9,500,79.9c-131.8,0-238.9,107.2-238.9,238.9c0,131.7,107.2,238.9,238.9,238.9C631.7,557.6,738.9,450.4,738.9,318.7z"/></g></g></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></g>
+                        </svg>
+                    </a>
+                </div>
+                <div class=" h3 text-white p-0 m-0">
+                    <p> <a href="/index.html" class="text-white"> Paathyakram </a></p>
+                </div>
+            </div>
+        
+            <div class="footer-top-row-1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Advertise</a></li>
+                </ul>
+            </div>
+            <div class="footer-top-row-2">
+                <div class="logo-footer">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                            <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                            <g><g><g><g><path d="M688.5,377.4v52.2c0,0-11.7-8.2-25.9,13.7l4.9-66C667.5,377.3,673.4,383.2,688.5,377.4z M688.6,363.3c0,6.4-5.2,11.6-11.6,11.6c-6.4,0-11.6-5.2-11.6-11.6c0-4.9,3-9.1,7.2-10.8v-37.7l-38.7,23.8v32.8l-0.8-0.3c0.9,1.3,1.6,2.6,1.6,3.9c0,14.9-60.3,27-134.7,27c-74.3,0-134.5-12.1-134.5-27c0-1.3,0.6-2.6,1.6-3.9l-0.8,0.3v-32.7l-88.7-51.5L500,168.3l222.5,118.8l-41.1,22.7v42.7C685.6,354.2,688.6,358.5,688.6,363.3z M500,279.4c24.6,0,44.7,1.9,61.3,4.8L500,266.1c-105.1,0-130.9,38.8-130.9,38.8v9C378,304.3,409.8,279.4,500,279.4z M619.5,375c0-9.3-53.5-16.8-119.5-16.8c-66,0-119.4,7.5-119.4,16.8c0,9.2,53.4,16.7,119.4,16.7C566,391.7,619.5,384.1,619.5,375z M631,304.8l-23.6-7c12.9,6.1,20.1,12.2,23.6,16V304.8z M808.7,318.7C808.7,489.2,500,990,500,990S191.3,489.2,191.3,318.7C191.3,148.3,329.5,10,500,10C670.5,10,808.7,148.3,808.7,318.7z M738.9,318.7C738.9,187,631.7,79.9,500,79.9c-131.8,0-238.9,107.2-238.9,238.9c0,131.7,107.2,238.9,238.9,238.9C631.7,557.6,738.9,450.4,738.9,318.7z"/></g></g></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></g>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+            <div class="footer-top-row-1">
+                <ul class="">
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">Google+</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-middle py-3 row d-none d-lg-flex px-3 justify-content-lg-center">
+            <div class="footer-middle-left col-lg-4 ">
+                <p class=" p-2 m-0 text-uppercase justify-content-center d-flex h5">
+                    Subscribe
+                </p>
+               
+                    <div class="p-2 m-0 d-flex flex-md-row">
+                        <input type="text" class="footer-input p-2 flex-grow my-md-0 col-8 text-white rounded" placeholder="abc@gmail.com" />
+                        <button type="submit" class="btn btn-secondary p-0 text-uppercase font-weight-bolder footer-button col-4 text-white">Search</button>
+                    </div>
+                  
+            </div>
+            <div class="footer-middle-center col-lg-4">
+                <p class=" p-2 m-0 text-uppercase justify-content-center h5 d-flex">
+                   Contact
+                </p> 
+                <p class=" p-2 m-0 text-center">
+                    Reach out to us for any query or feedback
+                </p>
+                <p class=" p-2 m-0 text-center">
+                    <a href="#" class=""> divyeshpatel685@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="footer-middle-end col-lg-4">
+                <p class=" p-2 m-0 text-uppercase justify-content-center h5 d-flex">
+                    About
+                 </p> 
+                 <p class=" p-2 m-0 text-center">
+                     find our more about the company and course or how it operate and how 
+                     you as user will benefit from it. click on <a href="#"> FAQ section </a> for more information.
+                 </p>
+            </div>
+        </div>
+        <div class="footer-bottom p-3 mx-0 ">
+            <div class="footer-bottom-icon ">
+                <a href="#">
+
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </div>
+            <div class="footer-bottom-text">
+                &copy; 2020 Paathyakram... All rights reserved
+                 
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

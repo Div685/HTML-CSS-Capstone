@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+
+.detail-info {
+  margin: 5rem 1rem 1rem 1rem;
+  font-family: "Questrial", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+}
+
+.detail-list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 0 0 0;
+}
+
+.detail-info-title {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  color: #f35649;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.detail-info-title .img-logo {
+  width: 50px;
+  margin: 0 10px 0 0;
+}
+
+.detail-info-title .img-cover {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: -70px;
+  width: 14rem;
+  display: none;
+}
+
+.detail-list-row-1 {
+  border: 1px solid #5d5d5d;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.detail-list-row-1 p:last-child {
+  margin: 0 10px 0;
+  color: #f35649;
+}
+
+.deatil-infor-button-right {
+  margin: 0.4rem 1rem 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.deatil-infor-button-right button {
+  padding: 0.7rem;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Description */
+
+.Description {
+  margin: 0.5rem 1rem 2rem 2rem;
+  font-family: "Questrial", sans-serif;
+}
+
+.Description .description-button {
+  padding: 1rem;
+  margin: 10px 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: #ccc;
+  display: flex;
+  color: #5d5d5d;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Description .description-button:hover {
+  text-decoration: underline;
+}
+
+.Description .description-button i {
+  color: #5d5d5d;
+  margin: 0 0.5rem 0 0;
+}
+
+/* Learn more */
+
+/* Tablet view */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .detail-info {
+    margin: 5rem 2rem 1rem 2rem;
+    font-family: "Questrial", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  }
+
+  .detail-list-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .detail-info-title {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: #f35649;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .detail-info-title .img-logo {
+    width: 50px;
+    margin: 0 10px 0 0;
+  }
+
+  .detail-info-title .img-cover {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    display: block;
+    width: 14rem;
+  }
+
+  .detail-list-row-1 {
+    border: 1px solid #5d5d5d;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  .learn-more-left p {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .detail-list-row-1 p:last-child {
+    margin: 0 10px 0;
+    color: #f35649;
+  }
+
+  .deatil-infor-button-right {
+    justify-content: flex-end;
+  }
+
+  .deatil-infor-button-right button {
+    width: 25%;
+  }
+
+  /* Description */
+
+  .Description {
+    margin: 0.5rem 1rem 2rem 2rem;
+    font-family: "Questrial", sans-serif;
+  }
+
+  .Description .description-button {
+    padding: 1rem;
+    margin: 10px 0;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    background-color: #ccc;
+    display: flex;
+    color: #5d5d5d;
+    align-items: center;
+  }
+
+  .Description .description-button i {
+    color: #5d5d5d;
+    margin: 0 0.5rem 0 0;
+  }
+}
+
+/* Large Screen */
+
+@media screen and (min-device-width: 1024px) {
+  .detail-info {
+    margin: 5rem 2rem 1rem 2rem;
+    font-family: "Questrial", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  }
+
+  .detail-list-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .detail-info-title {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: #f35649;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .detail-info-title .img-logo {
+    width: 50px;
+    margin: 0 10px 0 0;
+  }
+
+  .detail-info-title .img-cover {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    width: 14rem;
+    display: block;
+  }
+
+  .detail-list-row-1 {
+    border: 1px solid #5d5d5d;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  .detail-list-row-1 p:last-child {
+    margin: 0 10px 0;
+    color: #f35649;
+  }
+
+  .deatil-infor-button-right {
+    justify-content: flex-end;
+  }
+
+  .deatil-infor-button-right button {
+    width: 25%;
+  }
+
+  /* Description */
+
+  .Description {
+    margin: 0.5rem 1rem 2rem 2rem;
+    font-family: "Questrial", sans-serif;
+  }
+
+  .Description .description-button {
+    padding: 1rem;
+    margin: 10px 0;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    background-color: #ccc;
+    display: flex;
+    color: #5d5d5d;
+    align-items: center;
+  }
+
+  .Description .description-button i {
+    color: #5d5d5d;
+    margin: 0 0.5rem 0 0;
+  }
+}
