@@ -34,29 +34,15 @@ It contains Three pages
 git clone https://github.com/Div685/HTML-CSS-Capstone.git
 
 ```
+- Run index.html file on a browser.
 
-- After clonning you need to install some of the required dependencies using following command:
-
-```
-npm install
-```
-
-or
-
-```
-yarn install
-```
-
-### Prerequisites
-
-- Npm install or yarn install is required to make new commits.
 
 ## Author
 
 👤 **Divyesh Patel**
 
 - GitHub: [@Div685](https://github.com/Div685)
-- Twitter: [@div_685](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
+- Twitter: [@div_685](https://twitter.com/div_685)
 - LinkedIn: [Divyesh Patel](https://www.linkedin.com/in/divyesh-daxa-patel)
 
 ## 🤝 Contributing
